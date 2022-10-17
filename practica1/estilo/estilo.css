@@ -2,3 +2,93 @@
 Francisco Díaz-Pache - UO264817
 Descripción de los estilos
 */
+
+/* Especificidad = 1 */
+h1 {
+  font-size: 32px;
+  text-align: center;
+  color: #3a6d9c;
+  background-color: #ffffff00;
+  font-family: Arial, sans-serif;
+  padding: 4% 2.5%;
+}
+
+/* Especificidad = 1 */
+h2 {
+  font-size: 24px;
+  color: #f1233b;
+  background-color: #ffffff00;
+  padding: 3% 2.5%;
+  text-align: left;
+  font-family: Verdana, sans-serif;
+}
+
+/* Especificidad = 1 */
+h3 {
+  font-size: 18px;
+  color: #196301;
+  background-color: #ffffff00;
+  padding: 1% 2.5%;
+  text-align: left;
+  font-family: Tahoma, sans-serif;
+}
+
+/* Especificidad = 1 */
+p {
+  line-height: 2;
+}
+
+/* Especificidad = 1 */
+html {
+  background-color: #221102;
+}
+
+/* Especificidad = 1 */
+body {
+  margin: 2%;
+  line-height: 1.6;
+  background-color: white;
+  color: black;
+  display: block;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Especificidad = 1 */
+table {
+  margin: 2%;
+  text-align: center;
+  background-color: gray;
+}
+
+/* Especificidad = 1 */
+tr,
+td,
+th {
+  width: 25%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+/* Especificidad = 1 */
+ul,
+li {
+  list-style-position: inside;
+  list-style-type: circle;
+  padding: 0% 3%;
+  color: black;
+  text-align: left;
+  font-size: larger;
+  background-color: white;
+}
+
+/* Especificidad = 1 */
+audio {
+  height: 20%;
+}
+
+/* Especificidad = 1 */
+form {
+  margin: 2%;
+  text-align: left;
+  width: fit-content;
+}

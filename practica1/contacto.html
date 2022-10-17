@@ -3,7 +3,7 @@
 
 <head>
     <!--Metadatos de los documentos HTML5-->
-    <meta name="author" content="Francisco" />
+    <meta name="author" content="UO264817" />
     <meta name="description" content="Formulario de contacto con el creador del sitio web." />
     <meta name="keywords" content="ember.js, javascript, framework, web, contacto" />
 
@@ -15,36 +15,41 @@
 
     <!-- Hoja de estilo -->
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/trabajo.css" />
     <title>Ember.js - Contacto</title>
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Encabezado H1</h1>
-    <nav>
-        <a accesskey="i" href="./index.html">Inicio</a>
-         <a accesskey="v" href="./versiones.html">Versiones</a>
-         <a accesskey="c" href="./caracteristicas.html">Caracteristicas</a>
-         <a accesskey="n" href="./contacto.html">Contacto</a>
-       </nav>
+    <header>
+        <h1>Ember.js Framework</h1>
+        <nav>
+            <a accesskey="i" href="./index.html">Inicio</a>
+            <a accesskey="v" href="./versiones.html">Versiones</a>
+            <a accesskey="c" href="./caracteristicas.html">Caracteristicas</a>
+            <a accesskey="n" href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
     <h2>Contacto</h2>
-
-    <form>
-        <p><label for="nombre">Nombre: </label><input id="nombre"></p>
-        <p> <label for="num">Email de contacto:</label> <input id="num" type=email /></p>
-        <fieldset>
-            <legend>Horario de contacto:</legend>
-            <!-- los elementos agrupados-->
-            <p><label> <input type=radio name=horario> Mañana </label></p>
-            <p><label> <input type=radio name=horario> Tarde </label></p>
-        </fieldset>
-        <p> <label for="file">Fichero (opcional):</label> <input id="file" type=file /></p>
-        <input type="submit" value="Enviar" />
-    </form>
+    <article>
+        <form method="get">
+            <p><label for="nombre">Nombre: </label><input name="nombre"></p>
+            <p> <label for="mail">Email de contacto: </label> <input name="mail" type=email /></p>
+            <fieldset>
+                <legend>Horario de contacto: </legend>
+                <!-- los elementos agrupados-->
+                <p><label> <input type=radio name="horario" value="mañana"> Mañana </label></p>
+                <p><label> <input type=radio name="horario" value="tarde"> Tarde </label></p>
+            </fieldset>
+            <p> <label for="file">Fichero (opcional): </label> <input name="file" type=file /></p>
+            <input type="submit" value="Enviar" />
+        </form>
+    </article>
     <!-- anadir la sección footer dentro del body despues del párrafo -->
     <footer>
         <img src="multimedia/html.png" alt="HTML5 Válido!" />
         <img src="multimedia/CSS3.png" alt="CSS Válido!" />
     </footer>
+</body>
 
 </html>
