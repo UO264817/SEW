@@ -30,18 +30,18 @@
             <a accesskey="n" href="./contacto.html">Contacto</a>
         </nav>
     </header>
-    <h2>Contacto</h2>
     <article>
+        <h2>Contacto</h2>
         <form method="get">
-            <p><label for="nombre">Nombre: </label><input name="nombre"></p>
-            <p> <label for="mail">Email de contacto: </label> <input name="mail" type=email /></p>
+            <p><label for="nombre">Nombre: </label><input id="nombre" name="nombre"></p>
+            <p> <label for="mail">Email de contacto: </label> <input id="mail" name="mail" type=email /></p>
             <fieldset>
                 <legend>Horario de contacto: </legend>
                 <!-- los elementos agrupados-->
                 <p><label> <input type=radio name="horario" value="mañana"> Mañana </label></p>
                 <p><label> <input type=radio name="horario" value="tarde"> Tarde </label></p>
             </fieldset>
-            <p> <label for="file">Fichero (opcional): </label> <input name="file" type=file /></p>
+            <p> <label for="file">Fichero (opcional): </label> <input id="file" name="file" type=file /></p>
             <input type="submit" value="Enviar" />
         </form>
     </article>
