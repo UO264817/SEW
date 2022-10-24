@@ -32,6 +32,27 @@ article {
 	padding: 1% 2.5%;
 }
 
+/* Especificidad = 1 */
+form {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+ }
+
+/* Especificidad = 1 */
+form *{
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+ }
+ 
+ /* Especificidad = 1 */
+fieldset p{
+	display: flex;
+	flex-direction: column;
+	width: min-content;
+ }
+
 /* Especificidad = 001 */
 nav {
 	display: flex;
