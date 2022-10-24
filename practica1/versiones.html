@@ -35,19 +35,24 @@
         <article>
             <h2>Versiones del lenguaje</h2>
             <section>
-                <h3>Versión 1</h3>
+                <h3>Versión 4.7</h3>
                 <ul>
-                    <li>Changelog 1</li>
-                    <li>Changelog 2</li>
-                    <li>Changelog 3</li>
+                    <li>La introducción de nuevos datos en la caché es ahora un 33% más rápida.</li>
+                    <li>Acceder al LiveArray (peekAll / findAll) por primera vez es ahora un 97% más rápido</li>
+                    <li>El acceso inicial a los registros relacionados es ahora un ~80% más rápido</li>
+                    <li>La destrucción de todos los registros (por ejemplo, enviando también una solicitud de API) en un
+                        bucle es un 62% más rápida</li>
+                    <li>La descarga de todos los registros (de todos los tipos) es un ~98% más rápida</li>
                 </ul>
             </section>
             <section>
-                <h3>Versión 2</h3>
+                <h3>Versión 4.6</h3>
                 <ul>
-                    <li>Changelog 1</li>
-                    <li>Changelog 2</li>
-                    <li>Changelog 3</li>
+                    <li> Sustituir el método obsoleto substr() por el método substring()</li>
+                    <li>
+                        Ajustar la implementación de uniqueId() para que sólo genere selectores válidos. querySelector
+                        no funciona si el primer carácter es un número, así que ahora nos aseguramos de que el primer
+                        carácter sea una letra.</li>
                 </ul>
             </section>
             <p>Para ver versiones anteriores, consultar el <a href="https://blog.emberjs.com/tag/releases">blog oficial
