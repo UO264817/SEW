@@ -63,6 +63,7 @@ td,
 th {
   width: 25%;
   text-align: center;
+  color: black;
   background-color: lightblue;
 }
 
