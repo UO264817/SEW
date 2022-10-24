@@ -42,8 +42,10 @@
                     <fieldset>
                         <legend>Horario de contacto: </legend>
                         <!-- los elementos agrupados-->
-                        <p><label> <input type=radio name="horario" value="mañana"> Mañana </label></p>
-                        <p><label> <input type=radio name="horario" value="tarde"> Tarde </label></p>
+                        <p><label for="manana"> Mañana </label><input id="manana" type=radio name="horario"
+                                value="mañana"></p>
+                        <p><label for="tarde"> Tarde </label><input id="tarde" type=radio name="horario" value="tarde">
+                        </p>
                     </fieldset>
                     <p> <label for="file">Fichero (opcional): </label> <input id="file" name="file" type=file /></p>
                     <input type="submit" value="Enviar" />
