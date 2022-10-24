@@ -32,27 +32,6 @@ article {
 	padding: 1% 2.5%;
 }
 
-/* Especificidad = 1 */
-form {
-	display: flex;
-	flex-direction: column;
-	width: fit-content;
- }
-
-/* Especificidad = 1 */
-form *{
-	display: flex;
-	flex-direction: column;
-	width: fit-content;
- }
- 
- /* Especificidad = 1 */
-fieldset p{
-	display: flex;
-	flex-direction: column;
-	width: min-content;
- }
-
 /* Especificidad = 001 */
 nav {
 	display: flex;
@@ -61,3 +40,16 @@ nav {
 	flex-wrap: wrap;
 	overflow: hidden;
 }
+
+/* Especificidad = 2 */
+form p *{
+	display: flex;
+	flex-wrap: wrap;
+	width: fit-content;
+ }
+ /* Especificidad = 2 */
+form fieldset {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+ }
