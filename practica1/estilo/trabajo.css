@@ -19,12 +19,14 @@ footer {
 /* Especificidad: 001*/
 main {
 	color: black;
+	margin: 1%;
 	background-color: turquoise;
 }
 
 /* Especificidad = 1 */
 section {
 	color: black;
+	margin: 1%;
 	background-color: lightcoral;
 }
 
