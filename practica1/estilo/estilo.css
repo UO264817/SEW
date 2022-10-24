@@ -84,3 +84,9 @@ form {
   text-align: left;
   width: fit-content;
 }
+
+/* Especificidad = 1 */
+a {
+  color: #004CA3;
+  background-color: white;
+}
