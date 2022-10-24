@@ -16,7 +16,7 @@ h1 {
 /* Especificidad = 1 */
 h2 {
   font-size: x-large;
-  color: gold;
+  color: rgb(70, 70, 0);
   background-color: #ffffff00;
   text-align: left;
   font-family: Verdana, sans-serif;
@@ -25,7 +25,7 @@ h2 {
 /* Especificidad = 1 */
 h3 {
   font-size: large;
-  color: goldenrod;
+  color: rgb(50, 50, 0);
   background-color: #ffffff00;
   text-align: left;
   font-family: Tahoma, sans-serif;
