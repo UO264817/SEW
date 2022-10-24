@@ -1,6 +1,6 @@
 /*
 Francisco Díaz-Pache - UO264817
-Descripción de los estilos
+Hoja de estilos base
 */
 
 /* Especificidad = 1 */
@@ -39,16 +39,14 @@ p {
 
 /* Especificidad = 1 */
 html {
-  background-color: #221102;
+  background-color: coral;
 }
 
 /* Especificidad = 1 */
 body {
   margin: 2%;
-  line-height: 1.6;
   background-color: white;
   color: black;
-  display: flexbox;
   font-family: Tahoma, sans-serif;
 }
 

@@ -1,35 +1,44 @@
 /*
 Francisco Díaz-Pache - UO264817
-Descripción de los estilos
+Estilos de los elementos semánticos
 */
 
 /* Especificidad = 1 */
 header {
-	padding: 2% 2%;
 	font-family: Tahoma, sans-serif;
 	color: #000000;
-	background-color: rgb(217, 255, 195);
+	background-color: greenyellow;
 }
 
 /* Especificidad = 1 */
 footer {
 	color: #ffffff;
-	background-color: rgb(76, 93, 107);
+	background-color: #4c5d6b;
+}
+
+/* Especificidad: 001*/
+main {
+	color: black;
+	background-color: turquoise;
 }
 
 /* Especificidad = 1 */
-section,
+section {
+	color: black;
+	background-color: lightcoral;
+}
+
 article {
 	padding: 1% 2.5%;
 	text-align: center;
-	background-color: white;
+	color: black;
+	background-color: pink;
 }
 
 /* Especificidad = 001 */
 nav {
 	font-family: Tahoma, sans-serif;
 	background-color: white;
-	overflow: hidden;
 }
 
 /* Especificidad = 002 */
@@ -43,6 +52,6 @@ nav a {
 
 /* Especificidad = 012 */
 nav a:hover {
-	background-color: white;
+	background-color: lightgray;
 	color: #0a0dc4;
 }

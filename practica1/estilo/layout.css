@@ -1,0 +1,42 @@
+/*
+Francisco Díaz-Pache - UO264817
+Layout de los elementos en la página
+*/
+
+/* Especificidad = 1 */
+header {
+	display: flex;
+	flex-direction: column;
+	gap: 5%;
+	padding: 2% 2%;
+}
+
+/* Especificidad = 1 */
+footer {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+/* Especificidad: 001*/
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 5%;
+}
+
+/* Especificidad = 1 */
+section,
+article {
+	display: flex;
+	flex-direction: column;
+	padding: 1% 2.5%;
+}
+
+/* Especificidad = 001 */
+nav {
+	display: flex;
+	flex-direction: row;
+	gap: 5%;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
