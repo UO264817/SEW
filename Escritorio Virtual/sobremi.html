@@ -9,122 +9,129 @@
     <meta name="description" content="Documento que contiene datos sobre el autor del proyecto." />
     <meta name="keywords" content="sobre mi, francisco, diaz-pache, Aficiones, musica, Temperaturas, foto, email" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="estlio/estlio.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <title>Escritorio virtual - Sobre mí</title>
     <link href="multimedia/imagenes/favicon.ico" rel="icon">
 </head>
 
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
-    <h1>Escritorio virtual</h1>
-    <nav>
-        <a href="index.html" tabindex="1" accesskey="i">Inicio</a>
-        <a href="sobremi.html" tabindex="2" accesskey="s">Sobre mí</a>
-        <a href="noticias.html" tabindex="3" accesskey="n">Noticias</a>
-        <a href="agenda.html" tabindex="4" accesskey="a">Agenda</a>
-        <a href="meteorologia.html" tabindex="5" accesskey="m">Meteorología</a>
-        <a href="viajes.html" tabindex="6" accesskey="v">Viajes</a>
-        <a href="juegos.html" tabindex="7" accesskey="j">Juegos</a>
-    </nav>
-    <h2>Nombre y apellidos:</h2>
-    <p>Francisco Díaz-Pache Alonso</p>
-    <h2>Emali:</h2>
-    <p>UO264817@uniovi.es</p>
-    <h2>Presentación:</h2>
-    <p>Texto de presentación.</p>
-    <h2>Fotografía:</h2>
-    <picture>
-        <source srcset="multimedia/imagenes/fotoL.jpg" media="(max-width: 720px)">
-        <source srcset="multimedia/imagenes/fotoS.jpg" media="(max-width: 1280px)">
-        <img src="multimedia/imagenes/foto.jpg" alt="Foto de Francisco" />
-    </picture>
-    <!-- EJ 6 -->
-    <h2>Aficiones:</h2>
-    <ul>
-        <li>Caminar</li>
-        <li>Dormir</li>
-        <li>Comer
-            <ul>
-                <li>Sushi (recomiendo <a href="https://instagram.com/torosushi">Toro sushi</a>)</li>
-                <li>Pizza</li>
-                <li>Pasta</li>
-            </ul>
-        </li>
-        <li>Beber agua</li>
-    </ul>
-    <h2>Músicos favoritos:</h2>
-    <ol>
-        <li>Slipknot</li>
-        <li>Avenged Sevenfold</li>
-        <li>Dua Lipa</li>
-        <li>Linkin Park</li>
-        <li>Pablo Alborán</li>
-    </ol>
-    <h2>Asignaturas favoritas de Ingeniería Informática del Software en la <a href="https://uniovi.es">Universidad de
-            Oviedo</a>:</h2>
-    <dl>
-        <dt>Seguridad de Sistemas Informáticos</dt>
-        <dd>La asignatura que más se ajusta a mi perfli profesional.</dd>
-        <dt>Sistemas Inteligentes</dt>
-        <dd>La asignatura que más me ha interesado.</dd>
-        <dt>Ingeniería Forense y auditoría</dt>
-        <dd>La segunda asignatura más relevante para mi trabajo.</dd>
-        <dt>Arquitectura del software</dt>
-        <dd>La asignatura con la que más me he divertido.</dd>
-        <dt>Prácticas de empresa</dt>
-        <dd>La asignatura con la que comencé mi vida laboral.</dd>
-    </dl>
-
-    <!-- EJ 7 -->
-    <h2>Temperaturas medias anuales</h2>
-    <table>
-        <caption>Temperaturas medias anuales en Oviedo (2013-2023)</caption>
-        <tbody>
-            <tr>
-                <td>2013</td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td>2014</td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td> 2015 </td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td> 2016 </td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td> 2017 </td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td>2018</td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td>2019</td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td> 2020 </td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td> 2021 </td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td> 2022 </td>
-                <td> 2 </td>
-            </tr>
-            <tr>
-                <td> 2023 </td>
-                <td> 2 </td>
-            </tr>
-    </table>
+    <header>
+        <h1>Escritorio virtual</h1>
+        <nav>
+            <a href="index.html" tabindex="1" accesskey="i">Inicio</a>
+            <a href="sobremi.html" tabindex="2" accesskey="s">Sobre mí</a>
+            <a href="noticias.html" tabindex="3" accesskey="n">Noticias</a>
+            <a href="agenda.html" tabindex="4" accesskey="a">Agenda</a>
+            <a href="meteorologia.html" tabindex="5" accesskey="m">Meteorología</a>
+            <a href="viajes.html" tabindex="6" accesskey="v">Viajes</a>
+            <a href="juegos.html" tabindex="7" accesskey="j">Juegos</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Datos personales</h2>
+        <h3>Nombre y apellidos:</h3>
+        <p>Francisco Díaz-Pache Alonso</p>
+        <h3>Email:</h3>
+        <p>UO264817@uniovi.es</p>
+        <h3>Presentación:</h3>
+        <p>Texto de presentación.</p>
+        <h3>Fotografía:</h3>
+        <picture>
+            <source srcset="multimedia/imagenes/fotoL.jpg" media="(max-width: 720px)">
+            <source srcset="multimedia/imagenes/fotoS.jpg" media="(max-width: 1280px)">
+            <img src="multimedia/imagenes/foto.jpg" alt="Foto de Francisco" />
+        </picture>
+    </section>
+    <section>
+        <h2>Gustos</h2>
+        <h3>Aficiones:</h3>
+        <ul>
+            <li>Caminar</li>
+            <li>Dormir</li>
+            <li>Comer
+                <ul>
+                    <li>Sushi (recomiendo <a href="https://instagram.com/torosushi">Toro sushi</a>)</li>
+                    <li>Pizza</li>
+                    <li>Pasta</li>
+                </ul>
+            </li>
+            <li>Beber agua</li>
+        </ul>
+        <h3>Músicos favoritos:</h3>
+        <ol>
+            <li>Slipknot</li>
+            <li>Avenged Sevenfold</li>
+            <li>Dua Lipa</li>
+            <li>Linkin Park</li>
+            <li>Pablo Alborán</li>
+        </ol>
+        <h3>Asignaturas favoritas de Ingeniería Informática del Software en la <a href="https://uniovi.es">Universidad
+                de Oviedo</a>:</h3>
+        <dl>
+            <dt>Seguridad de Sistemas Informáticos</dt>
+            <dd>Es una asignatura impartida en el tercer curso, y es la asignatura que más se ajusta a mi perfli
+                profesional.</dd>
+            <dt>Sistemas Inteligentes</dt>
+            <dd>Es una asignatura impartida en el cuarto curso, y es la asignatura que más me ha interesado.</dd>
+            <dt>Ingeniería Forense y auditoría</dt>
+            <dd>Es una asignatura optativa, y es la segunda asignatura más relevante para mi trabajo.</dd>
+            <dt>Arquitectura del software</dt>
+            <dd>Es una asignatura impartida en el tercer curso, y es la asignatura con la que más me he divertido.
+            </dd>
+            <dt>Prácticas de empresa</dt>
+            <dd>Es una asignatura impartida en el cuarto curso, y es la asignatura con la que comencé mi vida
+                laboral.</dd>
+        </dl>
+    </section>
+    <section>
+        <h2>Temperaturas medias anuales</h2>
+        <table>
+            <caption>Temperaturas medias anuales en Oviedo (2013-2023)</caption>
+            <tbody>
+                <tr>
+                    <th scope="col" id="ano">Año</th>
+                    <th scope="col" id="temperatura">Temperatura media</th>
+                </tr>
+                <tr>
+                    <th scope="row" id="2013" headers="ano">2013</th>
+                    <td headers="ano 2013">25</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2014" headers="ano">2014</th>
+                    <td headers="ano 2014">25</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2015" headers="ano">2015</th>
+                    <td headers="ano 2015">25</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2016" headers="ano">2016</th>
+                    <td headers="ano 2016">25</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2017" headers="ano">2017</th>
+                    <td headers="ano 2017">25</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2018" headers="ano">2018</th>
+                    <td headers="ano 2018">25</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2019" headers="ano">2019</th>
+                    <td headers="ano 2019">25</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2020" headers="ano">2020</th>
+                    <td headers="ano 2020">25</td>
+                </tr>
+        </table>
+    </section>
+    <!--
+    <footer>
+        <p>Sitio web hecho para la asignatura de SEW - 2023</p>
+    </footer>
+    -->
 </body>
 
 </html>
