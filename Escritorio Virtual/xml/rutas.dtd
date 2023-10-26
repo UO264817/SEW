@@ -1,5 +1,5 @@
 <!ELEMENT rutas (ruta+)>
-<!ELEMENT ruta (nombre, tipo, medio, fechaInicio?, duarcion, agencia, descripcion, adecuadaPara, lugarInicio, coordenadasInicio, referencias, valoracion, hitos)>
+<!ELEMENT ruta (nombre, tipo, medio, fechaInicio?, duracion, agencia, descripcion, adecuadaPara, lugarInicio, coordenadasInicio, referencias, valoracion, hitos)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
 <!ELEMENT medio (#PCDATA)>
