@@ -4,13 +4,13 @@
 body {
   font-family: Tahoma, sans-serif;
   color: #818181;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 /*Especificidad: 001*/
 h1 {
-  color: #fff;
-  background-color: #FF5733;
+  color: #ffffff;
+  background-color: #8844AA;
   text-transform: uppercase;
   padding: 2em;
   text-align: center;

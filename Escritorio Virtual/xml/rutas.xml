@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta>
+        <nombre>Ruta1</nombre>
+        <tipo>Aventura</tipo>
+        <medio>Coche</medio>
+        <fechaInicio horaInicio="00:00">21/01/2024</fechaInicio>
+        <duracion>10 días</duracion>
+        <agencia>Ninguna</agencia>
+        <descripcion>Descripción de la ruta 1.</descripcion>
+        <adecuadaPara>Nadie</adecuadaPara>
+        <lugarInicio direccion="calle falsa 123">La plaza</lugarInicio>
+        <coordenadasInicio>
+            <lon>1</lon>
+            <lat>2</lat>
+            <alt>3</alt>
+        </coordenadasInicio>
+        <referencias>
+            <referencia>https://example.org</referencia>
+        </referencias>
+        <valoracion>0.1</valoracion>
+        <hitos>
+            <hito>
+                <nombreHito>Hito 1</nombreHito>
+                <descripcionHito>Descripción hito</descripcionHito>
+                <coordenadasHito>
+                    <lon>4</lon>
+                    <lat>5</lat>
+                    <alt>6</alt>
+                </coordenadasHito>
+                <distancia unidades="m">10</distancia>
+                <fotos>
+                    <foto>foto1.png</foto>
+                </fotos>
+                <videos>
+                    <video>video1.mp4</video>
+                </videos>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre>Ruta2</nombre>
+        <tipo>Aventura</tipo>
+        <medio>Coche</medio>
+        <fechaInicio horaInicio="00:00">21/01/2024</fechaInicio>
+        <duracion>10 días</duracion>
+        <agencia>Ninguna</agencia>
+        <descripcion>Descripción de la ruta 2.</descripcion>
+        <adecuadaPara>Nadie</adecuadaPara>
+        <lugarInicio direccion="calle falsa 123">La plaza</lugarInicio>
+        <coordenadasInicio>
+            <lon>1</lon>
+            <lat>2</lat>
+            <alt>3</alt>
+        </coordenadasInicio>
+        <referencias>
+            <referencia>https://example.org</referencia>
+        </referencias>
+        <valoracion>0.1</valoracion>
+        <hitos>
+            <hito>
+                <nombreHito>Hito 1</nombreHito>
+                <descripcionHito>Descripción hito</descripcionHito>
+                <coordenadasHito>
+                    <lon>4</lon>
+                    <lat>5</lat>
+                    <alt>6</alt>
+                </coordenadasHito>
+                <distancia unidades="m">10</distancia>
+                <fotos>
+                    <foto>foto1.png</foto>
+                </fotos>
+                <videos>
+                    <video>video1.mp4</video>
+                </videos>
+            </hito>
+        </hitos>
+    </ruta>
+    <ruta>
+        <nombre>Ruta3</nombre>
+        <tipo>Aventura</tipo>
+        <medio>Coche</medio>
+        <fechaInicio horaInicio="00:00">21/01/2024</fechaInicio>
+        <duracion>10 días</duracion>
+        <agencia>Ninguna</agencia>
+        <descripcion>Descripción de la ruta 3.</descripcion>
+        <adecuadaPara>Nadie</adecuadaPara>
+        <lugarInicio direccion="calle falsa 123">La plaza</lugarInicio>
+        <coordenadasInicio>
+            <lon>1</lon>
+            <lat>2</lat>
+            <alt>3</alt>
+        </coordenadasInicio>
+        <referencias>
+            <referencia>https://example.org</referencia>
+        </referencias>
+        <valoracion>0.1</valoracion>
+        <hitos>
+            <hito>
+                <nombreHito>Hito 1</nombreHito>
+                <descripcionHito>Descripción hito</descripcionHito>
+                <coordenadasHito>
+                    <lon>4</lon>
+                    <lat>5</lat>
+                    <alt>6</alt>
+                </coordenadasHito>
+                <distancia unidades="m">10</distancia>
+                <fotos>
+                    <foto>foto1.png</foto>
+                </fotos>
+                <videos>
+                    <video>video1.mp4</video>
+                </videos>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>
+
+<!-- Camerún -->
