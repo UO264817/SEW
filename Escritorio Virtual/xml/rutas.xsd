@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/rutas" elementFormDefault="qualified"
+  targetNamespace="http://tempuri.org/rutas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="rutas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="ruta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ruta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" />
+        <xs:element ref="tipo" />
+        <xs:element ref="medio" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="fechaInicio" />
+        <xs:element ref="duracion" />
+        <xs:element ref="agencia" />
+        <xs:element ref="descripcion" />
+        <xs:element ref="adecuadaPara" />
+        <xs:element ref="lugarInicio" />
+        <xs:element ref="coordenadasInicio" />
+        <xs:element ref="referencias" />
+        <xs:element ref="valoracion" />
+        <xs:element ref="hitos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string" />
+  <xs:element name="tipo" type="xs:string" />
+  <xs:element name="medio" type="xs:string" />
+  <xs:element name="fechaInicio" type="xs:dateTime" />
+  <xs:element name="duracion" type="xs:duration" />
+  <xs:element name="agencia" type="xs:string" />
+  <xs:element name="descripcion" type="xs:string" />
+  <xs:element name="adecuadaPara" type="xs:string" />
+  <xs:element name="lugarInicio">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="direccion" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="coordenadasInicio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lon" />
+        <xs:element ref="lat" />
+        <xs:element ref="alt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="referencias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="3" maxOccurs="unbounded" ref="referencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="referencia" type="xs:string" />
+  <xs:element name="valoracion">
+    <xs:simpleType>
+      <xs:restriction base="xs:integer">
+        <xs:minInclusive value="0" />
+        <xs:maxInclusive value="10" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="hitos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="hito" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hito">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreHito" />
+        <xs:element ref="descripcionHito" />
+        <xs:element ref="coordenadasHito" />
+        <xs:element ref="distancia" />
+        <xs:element ref="fotos" />
+        <xs:element minOccurs="0" maxOccurs="3" ref="videos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombreHito" type="xs:string" />
+  <xs:element name="descripcionHito" type="xs:string" />
+  <xs:element name="coordenadasHito">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="lon" />
+        <xs:element ref="lat" />
+        <xs:element ref="alt" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="distancia">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:float">
+          <xs:attribute name="unidades" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fotos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="5" ref="foto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foto" type="xs:string" />
+  <xs:element name="videos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="3" ref="video" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="video" type="xs:string" />
+  <xs:element name="lon" type="xs:float" />
+  <xs:element name="alt" type="xs:float" />
+  <xs:element name="lat" type="xs:float" />
+</xs:schema>

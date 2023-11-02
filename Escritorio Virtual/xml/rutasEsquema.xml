@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rutas SYSTEM "rutas.dtd">
-<rutas >
+<!--DOCTYPE rutas SYSTEM "rutas.dtd"-->
+<?xml-model href="rutas.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<rutas xmlns="http://tempuri.org/rutas">
     <ruta>
         <nombre>Ruta1</nombre>
         <tipo>Aventura</tipo>

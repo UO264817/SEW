@@ -1,0 +1,16 @@
+Codificación a UTF-8
+referencia, minOccurs a 3
+ <xs:element name="valoracion">
+    <xs:simpleType>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="140"/>
+    </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+fechaInicio type xs:dateTime
+lon, lat y alt type xs:float
+video, maxOccurs 3
+foto, maxOccurs 5 y minOccurs 1
+distancia base type xs:float
+duración type xs:duration

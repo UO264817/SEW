@@ -4,7 +4,6 @@
 <!ELEMENT tipo (#PCDATA)>
 <!ELEMENT medio (#PCDATA)>
 <!ELEMENT fechaInicio (#PCDATA)>
-<!ATTLIST fechaInicio horaInicio CDATA #IMPLIED>
 <!ELEMENT duracion (#PCDATA)>
 <!ELEMENT agencia (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
