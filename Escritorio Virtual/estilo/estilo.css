@@ -8,7 +8,7 @@ body {
 }
 
 /**/
-nav a{
+nav a {
     color: #88dd44
 }
 
@@ -24,4 +24,9 @@ header {
 /* Especificidad: 012*/
 ul li:nth-of-type(3) {
     color: #4488aa
+}
+
+p {
+    color: #ffffff;
+    background-color: #222222;
 }

@@ -11,6 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <script src="js/pais.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <title>Escritorio virtual - Meteorología</title>
     <link href="multimedia/imagenes/favicon.ico" rel="icon">
 </head>
@@ -33,10 +35,13 @@
             </nav>
         </header>
         <script>
-            document.write("<h2>"+camerun.getNombre()+"</h2>");
-        document.write("<h3>"+camerun.getCapital()+"</h3>");
-        document.write(camerun.getInfo());
-            camerun.getCoordenadas();</script>
+            document.write("<h2>" + camerun.getNombre() + "</h2>");
+            document.write("<h3>" + camerun.getCapital() + "</h3>");
+            document.write(camerun.getInfo());
+            camerun.getCoordenadas();
+
+            camerun.getPrevision(5)</script>
+            <p id="clima">
     </body>
 
 </html>

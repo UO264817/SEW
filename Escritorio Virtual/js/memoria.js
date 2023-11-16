@@ -16,7 +16,7 @@ class Memoria {
     ]
     constructor() {
         this.elements.forEach(element => {
-            document.write("<article><p>" + element["element"] + "</p><svg src=" + element["source"] + "/></article>")
+            document.write("<article><p>" + element["element"] + "</p><img src=\"" + element["source"] + "\"/></article>")
         });
     }
 }
